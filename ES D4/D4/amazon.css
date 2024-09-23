@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Titolo{
+    height: 70px;
+    background-color: #222f3e;
+}
+
+nav img{
+    height: 40px;
+    width: 130px;
+    margin: 20px;
+}
+
+
+.Navbar{
+    height: 30px;
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    background-color: #364759;
+    color: white;
+    padding: 7px;
+    padding-left: 20px;
+    text-align: center;
+}
+
+.title-shop {
+    margin: 20px;
+    color: white;
+    background-color: rgb(255, 98, 0);
+    text-align: center;
+}
+
+header{
+    position: relative;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    height: 200px;
+    background-image:url(bg-image.png);
+    background-color: rgb(126, 126, 126);
+}
+.header-text{
+    color: white;
+    padding: 10px;
+}
+
+.header-text h4{
+    text-align: center;
+}
+
+.section1{
+    margin: 20px;
+    height: auto;
+    border: 1px;
+    flex-direction: row;
+    padding: 20px;
+    -webkit-box-shadow: 9px 7px 15px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 9px 7px 15px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 9px 7px 15px 0px rgba(34, 60, 80, 0.2);
+
+}
+
+.primaparte{
+    border-radius: 20px ;
+    width: 300px;
+    height: 350px;
+    margin: 20px;
+    -webkit-box-shadow: 9px 7px 15px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 9px 7px 15px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 9px 7px 15px 0px rgba(34, 60, 80, 0.2);
+ 
+}
+
+
+.secondaparte{
+width: 100%;
+height: auto;
+padding: 20px;
+}
+
+
+.terzaparte{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+}
+
+.section2,.section3{
+    text-align: center;
+}
+
+.section3{
+    margin-bottom: 20px;
+}
+span{
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    font-weight:bold;
+    color: rgb(0, 109, 128);
+}
+
+
+footer{
+    color: white;
+    background-color: #364759;
+    text-align: center;
+}
+
+footer a{
+    color: white;
+    text-decoration: underline;
+}
+
+footer img{
+    height: 50px;
+    width: 150px;
+    margin-top: 30px;
+}
+
+
+.final-footer{
+    background-color: #222f3e;
+    height: 100px;
+    
+}
